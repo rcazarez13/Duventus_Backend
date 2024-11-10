@@ -22,7 +22,6 @@ namespace API.Controllers
         // GET: api/Employee
         [HttpGet]
         public async Task<IActionResult> GetEmployees()
-        
         {
             var employees = await _employeeRepository.GetEmployeesAsync();
             return Ok(employees);

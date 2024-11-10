@@ -211,8 +211,6 @@ namespace Repository.Roster.Repository
 
             return salaryReceived;
         }
-
-
     }
 }
 
